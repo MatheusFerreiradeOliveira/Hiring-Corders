@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(54,54,54);
+    font-family: sans-serif;
+    background-image: url("images/fundoo.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+#cabecalho {
+    background-color: rgb(25,25,112);
+    padding-left: 32%;
+    padding-right: 29%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+
+ul {
+    color: blue;
+}
+
+
+#container {
+    background-color: white;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+a {
+    color: black;
+    text-decoration: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: large;
+    margin-bottom: 5%;
+    border: solid;
+    border-color: rgb(25,25,112);
+    
+}
+
+#destaques {
+    display: flex;
+    justify-content: space-between;
+    justify-content: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+#noticia {
+    padding-left: 1%;
+    padding-bottom: 5%;
+    border: 1px solid;
+    border-radius: 10px solid;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    box-shadow: black 5px 5px 10px;
+}
+
+#rodape {
+    margin: 2%;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+#icone img {
+    margin-right: 5%;
+    width: 15%;
+}
